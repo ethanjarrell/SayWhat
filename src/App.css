@@ -1,0 +1,120 @@
+*{
+  font-family: 'Acme', sans-serif;
+  -webkit-transition:all .25s ease;
+       -moz-transition:all .25s ease;
+             -o-transition:all .25s ease;
+                   transition:all .25s ease;
+}
+
+.App {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 100vw;
+  min-height: 100vh;
+  background: black;
+}
+
+.header {
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282828;
+}
+
+h3 {
+  font-size: 55px;
+}
+
+label {
+  color: white;
+  margin-top: 1vh;
+}
+
+.form {
+  padding: 0px 3vw 0px 4vw;
+  height: 100%;
+}
+
+input {
+  border-radius: 10px;
+  outline: none;
+}
+
+.playlistcontainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.playlist {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #4c4c4c;
+
+}
+
+.listcard {
+  margin: 5px;
+
+}
+
+.listcard1 {
+  color: white;
+  margin: 5px 10px;
+  list-style: none;
+  border-right-style: solid;
+  border-right-color: gray;
+  border-right-width: 2px;
+  padding-right: 10px;
+}
+
+.listcard2 {
+  color: gray;
+  margin: 5px 10px;
+  list-style: none;
+  border-right-style: solid;
+  border-right-color: gray;
+  border-right-width: 2px;
+  padding-right: 10px;
+}
+
+.listcard3 {
+  color: white;
+  margin: 5px 10px;
+  list-style: none;
+  border-right-style: solid;
+  border-right-color: gray;
+  border-right-width: 2px;
+  padding-right: 10px;
+}
+
+.listcard4 {
+  color: gray;
+  margin: 5px 10px;
+  list-style: none;
+}
+
+.card {
+
+  background-color: black;
+}
+
+.card1 {
+  display: flex;
+  align-content: stretch;
+  margin: 5px;
+  border-top-style: solid;
+  border-top-color: gray;
+  border-top-width: 5px;
+}
+
+.input {
+  height: 15vh;
+}
+
+textarea {
+  border-radius: 10px;
+  outline: none;
+}
